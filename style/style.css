@@ -1,0 +1,33 @@
+
+table {
+	border: 2px;
+}
+
+td {
+	height: 10px;
+	width: 35px;
+}
+
+
+input {
+	height: 30px;
+	width: 75px;
+}
+
+html {
+	background: #ccc;
+}
+
+.container-fluid {
+	background: #ccc;
+}
+
+#hiddenButton {
+		display: none;
+
+}
+
+.divide {
+	height: 10px;
+	width: 30px;
+}

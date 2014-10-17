@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gauss</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="app/solve.js"></script>
+    <script src="app/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-static-top">
+</div>
+
+<div id="carousel" class="carousel slide">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="style/bigPhoto.jpg" alt="Image">
+            <div class="carousel-caption">
+                <h3>Solving by Gaussian Elimination</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img src="style/bigPhoto2.1.jpg" alt="Image">
+            <div class="carousel-caption">
+                <h3>Solving by Gaussian Elimination</h3>
+            </div>
+        </div>
+        <div class="item">
+            <img src="style/bigPhoto3.1.jpg" alt="Image">
+            <div class="carousel-caption">
+                <h3>Solving by Gaussian Elimination</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--rows of changing -->
+    <a href="#carousel" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#carousel" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 col-md-4" ></div>
+        <div class="col-lg-4 col-md-4" >
+            <div id="createTable">
+                <input type="number" id="countOfRows">
+                <button type="button" class="buttonForCreating btn btn-default">Create Table</button>
+            </div>
+
+            <div id="inputData"></div>
+            <button type="button" id="hiddenButton" class="results btn btn-default">Result</button>
+            <div id="answers"></div>
+        </div>
+        <div class="col-lg-4 col-md-4" ></div>
+    </div>
+</div>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
